@@ -1,1 +1,41 @@
 /* your code */
+/* table, thead, tr, td{
+	border: solid;
+	border-collapse: collapse;
+}
+
+td{
+	width: 100px
+} */
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1f4e79;
+  color: white;
+  text-align: left;
+}
+
+thead th {
+  padding: 12px;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
